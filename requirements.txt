@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+scipy
+python-docx
+PySide6
+codecs
