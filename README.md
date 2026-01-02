@@ -44,7 +44,7 @@ This toolbox follows commonly accepted biomechanical principles used in CMJ anal
 ---
 
 ##  Project Structure
-'''
+<pre>
 CMJ/
 ├── cmj_utils.py          # Core biomechanical computations and signal processing
 ├── cmj_trial.py          # Trial-level CMJ processing (not shown here)
@@ -53,7 +53,7 @@ CMJ/
 ├── pyside_gui.py         # GUI for report generation (PySide6)
 ├── README.md             # Project documentation
 ├── .gitignore
-'''
+</pre>
 
 ---
 
