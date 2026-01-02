@@ -46,12 +46,12 @@ This toolbox follows commonly accepted biomechanical principles used in CMJ anal
 ##  Project Structure
 
 CMJ/
-├── cmj_utils.py # Core biomechanical computations and signal processing
-├── cmj_session.py # Session-level CSV aggregation and validation
-├── cmj_trial.py # Trial-level CMJ processing (not shown here)
-├── cmj_word_report.py # Automated Word report generation
-├── pyside_gui.py # GUI for report generation (PySide6)
-├── README.md # Project documentation
+├── cmj_utils.py          # Core biomechanical computations and signal processing
+├── cmj_trial.py          # Trial-level CMJ processing (not shown here)
+├── cmj_session.py        # Session-level CSV aggregation and validation
+├── cmj_word_report.py    # Automated Word report generation
+├── pyside_gui.py         # GUI for report generation (PySide6)
+├── README.md             # Project documentation
 ├── .gitignore
 
 
