@@ -1,0 +1,42 @@
+{
+  "round_value": 2,
+  "gravity": 9.81,
+  "butter_filter": {
+    "cutoff": 12,
+    "order": 2
+  },
+  "savgol_filter": {
+    "savgol_window": 31,
+    "savgol_order": 3
+  },
+  "bodyweight_estimation": {
+    "window": 0.5,
+    "std_thresh": 0.02
+  },
+  "initial_velocity_estimation": {
+    "window": 0.3,
+    "std_thresh": 0.005
+  },
+  "takeoff_detection": {
+    "threshold_factor": 0.05
+  },
+  "v_edge_detection": {
+    "window_smooth": 5,
+    "window_slope": 3
+  },
+  "invalid_trial_criteria": {
+    "min_jump_height_cm": 5,
+    "max_force_bw": 8,
+    "max_asymmetry_percent": 40,
+    "noise_standing_thresh": 0.05
+  },
+  "units": {
+    "distance_from": "mm",
+    "distance_to": "cm"
+  },
+  "phases": {
+    "eccentric": ["unloading", "braking", "deceleration"],
+    "concentric": ["propulsion_p1", "propulsion_p2"],
+    "landing": "landing"
+  }
+}

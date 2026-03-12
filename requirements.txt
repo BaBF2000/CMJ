@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy
+pandas
+matplotlib
+
+# GUI
+PySide6
+
+# Report generation
+python-docx
+
+# Development / testing
+pytest
+pytest-cov

@@ -1,0 +1,10 @@
+{
+  "vicon": {
+    "nexus_python27_path": "C:/Program Files (x86)/Vicon/Nexus2.12/Python/python.exe",
+    "extract_script": "vicon_data_retrieval/extract_from_vicon.py",
+    "nexus_search_roots": [
+      "C:/Program Files (x86)/Vicon",
+      "C:/Program Files/Vicon"
+    ]
+  }
+}

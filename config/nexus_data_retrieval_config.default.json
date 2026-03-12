@@ -1,0 +1,9 @@
+{
+  "forceplates": {
+    "FP1 9053": "R",
+    "FP2 9054": "L"
+  },
+  "markers": ["C7", "T10", "CLAV", "STRN", "LSHO", "RSHO", "LASI", "RASI", "LPSI", "RPSI",
+ "LTRO", "LTHI", "LKNE", "LMCK", "LTIB", "LANK", "LMMA", "LHEE", "LTOE",
+ "RTRO", "RTHI", "RKNE", "RMCK", "RTIB", "RANK", "RMMA", "RHEE", "RTOE"]
+}

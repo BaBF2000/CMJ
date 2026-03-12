@@ -1,0 +1,54 @@
+{
+  "paths": {
+    "logo": "Kopf Labor.jpg",
+    "markdown": "parameter.md",
+    "log_dir": "_logs"
+  },
+
+  "document": {
+    "font_name": "Calibri",
+    "font_size": 11,
+    "page": {
+      "width_mm": 210,
+      "height_mm": 297,
+      "margins_cm": {
+        "top": 2.54,
+        "bottom": 2.54,
+        "left": 1.91,
+        "right": 1.91
+      }
+    }
+  },
+
+  "tables": {
+    "font_size_default": 11,
+    "font_size_medium": 10,
+    "font_size_small": 9,
+    "row_height_mm": 10,
+    "last_col_width_mm": 5,
+    "other_col_width_mm": 3,
+    "header_color_rgb": [217, 217, 217],
+    "row_colors_rgb": [[245, 245, 245], [255, 255, 255]],
+    "border": {
+      "sz": 6,
+      "val": "single",
+      "color": "000000"
+    },
+    "delta_color": {
+      "orange_threshold": 10,
+      "orange_rgb": [237, 125, 49],
+      "red_threshold": 15,
+      "red_rgb": [192, 0, 0]
+    }
+  },
+
+  "radar_chart": {
+    "fig_size": [5, 5],
+    "line_color": "b",
+    "line_width": 2,
+    "line_style": "solid",
+    "fill_alpha": 0.25,
+    "title_size": 14,
+    "title_y": 1.1
+  }
+}
