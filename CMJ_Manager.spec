@@ -25,10 +25,10 @@ datas = [
     ("src/cmj_framework/gui/assets/styles/app.qss", "src/cmj_framework/gui/assets/styles"),
 
     # Export resources
-    ("src/cmj_framework/export/resources/cmj_banner_placeholder.png", "resources"),
-    ("src/cmj_framework/export/resources/parameter.md", "resources"),
-    ("src/cmj_framework/export/resources/phases.md", "resources"),
-    ("src/cmj_framework/export/resources/munster_graph.png", "resources"),
+    ("src/cmj_framework/export/resources/cmj_banner_placeholder.png", "src/cmj_framework/export/resources"),
+    ("src/cmj_framework/export/resources/parameter.md", "src/cmj_framework/export/resources"),
+    ("src/cmj_framework/export/resources/phases.md", "src/cmj_framework/export/resources"),
+    ("src/cmj_framework/export/resources/munster_graph.png", "src/cmj_framework/export/resources"),
 
     # Vicon extraction script
     ("src/cmj_framework/vicon_data_retrieval/extraction.py", "src/cmj_framework/vicon_data_retrieval"),

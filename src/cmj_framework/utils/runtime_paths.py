@@ -89,14 +89,8 @@ def gui_asset(*parts: str) -> Path:
 def export_resources_dir() -> Path:
     """Return the bundled export resources directory."""
     if is_frozen():
-        internal_dir = (
-            bundle_root_dir()
-            / "_internal"
-            / "src"
-            / "cmj_framework"
-            / "export"
-            / "resources"
-        )
+        internal_dir = bundle_root_dir() / "_internal" / "src" / "cmj_framework"/ "export" / "resources"
+
         if internal_dir.exists():
             return internal_dir
         return bundle_root_dir() / "src" / "cmj_framework" / "export" / "resources"
